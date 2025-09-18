@@ -74,7 +74,7 @@ const enableboxes=()=>{
 
 //Displaying Winner
 const showwinner=(winner)=>{
-    msg.innerText = `Congratulations Winner is , ${winner}`;  
+    msg.innerText = `Congratulations Player,${winner},Won the Game `; 
     msgcontainer.classList.remove("hide");
     disableboxes();
 };
@@ -97,3 +97,5 @@ const seewinner=()=>{
 };
 newgamebtn.addEventListener("click",resetgame);
 resetbtn.addEventListener("click",resetgame);
+
+//Better Literature
